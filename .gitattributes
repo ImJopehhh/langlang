@@ -9,3 +9,7 @@ backend/Program.cs linguist-language=C#
 core/lib.rs linguist-language=Rust
 core/main.cpp linguist-language=C++
 core/Logic.swift linguist-language=Swift
+
+# Exclude scripts and documents from stats
+script.sh linguist-vendored
+.gitattributes linguist-vendored
