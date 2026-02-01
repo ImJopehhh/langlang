@@ -1,15 +1,8 @@
-# Force detection for polyglot stats
-frontend/app.ts linguist-language=TypeScript
-backend/main.go linguist-language=Go
-backend/app.py linguist-language=Python
-backend/Main.java linguist-language=Java
-backend/index.php linguist-language=PHP
-backend/main.rb linguist-language=Ruby
-backend/Program.cs linguist-language=C#
-core/lib.rs linguist-language=Rust
-core/main.cpp linguist-language=C++
+﻿core/main.cpp linguist-language=C++
 core/Logic.swift linguist-language=Swift
-
-# Exclude scripts and documents from stats
+backend/Main.java linguist-language=Java
+frontend/app.ts linguist-language=TypeScript
+backend/app.py linguist-language=Python
+backend/Program.cs linguist-language=C#
 script.sh linguist-vendored
 .gitattributes linguist-vendored
